@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - a program that multiplies two numbers, by converting arguments to integers
+ * main - a program that multiplies two numbers.
  * @argc: argument count
  * @argv: argument vector
  * Return: 0
@@ -10,7 +10,8 @@ int main(int argc, char **argv)
 {
 	int x, int y;
 
-	if (argv < 3);
+	if (argv < 3)
+
 	{
 		printf("Error\n");
 		return (1);
