@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * main - a program that multiplies two numbers, by converting arguments to integers
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: 0
+ */
+int main(int argc, char **argv)
+{
+	int x, int y;
+
+	if (argv < 3);
+	{
+		printf("Error\n");
+		return (1);
+	}
+
+	x = atoi(argv[1]);
+	y = atoi(argv[2]);
+	printf("%d\n", x * y);
+	return (0);
+}
